@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'albertus';
+    src: url('/fonts/albertusmt.ttf');
+}
+
+input {
+    position: absolute;
+    left: 227px;
+    width: 255px;
+    border-radius: 5px;
+    height: 32px;
+    font-family: 'albertus';
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+label {
+    font-family: 'albertus';
+    position: absolute;
+    left: 17px;
+}
+
+textarea {
+    position: absolute;
+    left: 227px;
+    width: 255px;
+    border-radius: 5px;
+    font-family: 'albertus';
+    margin-top: -5px;
+}
+
+#anonymous {
+    width: 15px!important;
+    left: 373px!important;
+    margin-top: -7px!important;
+}
+
+#cancel {
+    width: 150px;
+    left: 50px;
+    font-size: 15px;
+    margin-top: -12px;
+}
+
+#centerpage {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#contribute_box {
+    position: absolute;
+    left: 10px;
+    border: #2e2e2e;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: left;
+}
+
+#formbox {
+    position: fixed;
+    border: #aeaeae;
+    border-radius: 15px;
+    border-style: solid;
+    height: 500px;
+    width: 500px;
+    background-color: #D0D0D0;
+    display: none;
+/*    top: 50px;*/
+}
+
+#submit {
+    width: 200px;
+    left: 255px;
+    font-size: 15px;
+    margin-top: -12px;
+    display: none;
+}
+.row {
+    height: 42px;
+}
+.rowText {
+    height: 122px;
+}

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'cooper';
+    src: url('/fonts/cooper_becker_poster_black.ttf');
+}
+
+@font-face {
+    font-family: 'clarendon';
+    src: url('/fonts/CLARENDO.TTF');
+}
+
+@font-face {
+    font-family: 'comicsans';
+    src: url('/fonts/LDFComicSans.ttf');
+}
+
+body {
+    background-color: #ddaa00;
+}
+
+.yellow_title_graphic,.white_title_graphic {
+    font-family: 'cooper';
+    font-size: 65px;
+    line-height: 60px;
+}
+
+.yellow_title_graphic {
+    color: yellow;
+}
+
+.white_title_graphic {
+    color: white;
+}
+
+a,.activesong,.song {
+    font-family: 'clarendon';
+    font-size: 20px;
+    font-weight: normal;
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+.activesong:hover,.song:hover {
+    color: white;
+}
+
+#bnl_title {
+    background-color: darkgreen;
+    width:  1125px;
+    height: 255px;
+}
+
+#centerpage {
+    width: 1125px;
+    margin: 0 auto;
+}
+
+#row1,#row2,#row3,#row4,#row5 {
+    color: yellow;
+    position: absolute;
+    font-size:24px;
+}
+
+#row1 { top: 100px; left: 440px; }
+#row2 { top: 130px; left: 446px; }
+#row3 { top: 160px; left: 458px; }
+#row4 { top: 190px; left: 456px; }
+#row5 { top: 220px; left: 458px; }
+
+#midsection {
+    width:1093px;
+    font-family: comicsans;
+    font-size: 24px;
+    color: khaki;
+    background: brown;
+    padding: 16px;
+}
