@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '89ZN4XmgEZ-iJCj5lMINRDhnTRETux1JFYpZEt8f2_DJZsxY_o1xnjg-xEKdumfvx-8MJiXYzg';
+$settings['hash_salt'] = 'gwHvNHyUc0d3u4bVwKAUsVBGibnigAhIfPJGuaZP6ooUN2TzxK3lTlVEGrgk7XZG6Y38tnDTCA';
 
 /**
  * Deployment identifier.
@@ -784,7 +784,7 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'bnl_drupal',
+  'database' => 'logthedo_bnl_drupal',
   'username' => 'root',
   'password' => 'sqflirzel',
   'prefix' => '',
@@ -794,4 +794,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_03JjWSEOVgAa-MFbH6-vrPwzw7SzqffccqdsjTA4_l-A_VwihdcM82g1gC4USeL0OjrD6U2NKA/sync';
+$config_directories['sync'] = 'sites/default/files/config_EH21cm29gzIM3u9rJLtsDUkP90Q7xD27kl2VKF-TNePwspup3tnoWMg-ojdLRKAq7JsTo9oH2w/sync';
